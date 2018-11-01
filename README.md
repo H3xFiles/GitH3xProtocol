@@ -1,9 +1,8 @@
 # H3xGitStandards
-
-## Files to include:
-.gitignore
-libraries-list
-readme
+### Files to include:
+- .gitignore
+- libraries-list
+- readme
 
 ## Branching:
 ### Master branch [stable version]
