@@ -3,6 +3,7 @@
 - .gitignore
 - libraries-list
 - readme
+- config
 
 ## Branching:
 ### Master branch [stable version]
