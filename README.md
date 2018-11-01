@@ -1,27 +1,33 @@
 # H3xGitStandards
 
-## Master branch -> stable version
+## Files to include:
+.gitignore
+libraries-list
+readme
+
+## Branching:
+### Master branch [stable version]
 - Branch from:
     - Pre-release
 - Merge with: 
     - Do not merge
-## Hotfix -> fix production side bugs -> delete after merge
+  ### Hotfix [fix production side bugs -> delete after merge]
 - Branch from:
     - Master
 - Merge with: 
     - Master
- ## Pre-release branch -> test stability
+ ### Pre-release branch [test stability]
 - Branch from:
     - Development
 - Merge with: 
     - Master or Pre-release(if not stable)
-## Development branch -> working in progress
+ ### Development branch [working in progress]
 - Branch from:
     - Development
 - Merge with: 
     - Pre-release(if you consider stable) or Development(if working in progress)
 
-## Testing branch -> testing very breakable features -> delete after merge
+### Testing branch [testing very breakable features -> delete after merge]
 - Branch from:
     - Development
 - Merge with: 
