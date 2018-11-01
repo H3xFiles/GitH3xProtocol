@@ -2,7 +2,7 @@
 ## Initiate git repository
 ```Bash
 echo "# test" >> README.md
-echo >> .gitignore
+echo "*.logs">> .gitignore
 git init
 git add *.*
 git commit -m "first commit"
