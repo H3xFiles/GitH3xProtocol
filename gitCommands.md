@@ -44,7 +44,7 @@ git commit -m "Message"
 git push -f HEAD:<branch name>
 ```
 
-## create git ignore
+## Create git ignore
 
 ```Bash
 cat "" > .gitignore
@@ -62,3 +62,8 @@ README.txt
 *logs
 ```
 
+## Pip freeze the modules and installing from the requirements file
+```Bash
+$ env1/bin/pip freeze > requirements.txt
+$ env2/bin/pip install -r requirements.txt
+```
